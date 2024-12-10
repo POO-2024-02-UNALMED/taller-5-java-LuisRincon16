@@ -43,7 +43,7 @@ public class Zoologico{
     public void setZonas(ArrayList<Zona> zona){
         this.zonas = zona;
     }
-    public ArrayList<Zona> getZonas(){
+    public ArrayList<Zona> getZona(){
         return zonas;
     }
 }

@@ -53,7 +53,7 @@ public class Anfibio extends Animal{
     public void setVenenoso(boolean ven){
         this.venenoso = ven;
     }
-    public boolean getVenenoso(){
+    public boolean isVenenoso(){
         return this.venenoso;
     }
 }

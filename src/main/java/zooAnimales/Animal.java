@@ -8,7 +8,7 @@ public class Animal{
     private int edad;
     private String habitat;
     private String genero;
-    private ArrayList<Zona> zona= new ArrayList<>();
+    private Zona zona;
 
     public Animal(String nom, int edad, String hab, String gen){
         this.nombre= nom;
@@ -29,10 +29,10 @@ public class Animal{
 		"Anfibios: "+ Anfibio.getListado().size();		
 	}
 
-    public void setZona(ArrayList<Zona> zona){
+    public void setZona(Zona zona){
 		this.zona = zona;
 	}
-	public ArrayList<Zona> getZona(){
+	public Zona getZona(){
 		return zona;
 	}
 

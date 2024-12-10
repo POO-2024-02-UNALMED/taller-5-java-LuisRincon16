@@ -29,7 +29,7 @@ public class Animal{
 		"Anfibios: "+ Anfibio.getListado().size();		
 	}
 
-    public void setZona(Zona zona) {
+    public void setZona(ArrayList<Zona> zona) {
 		this.zona = zona;
 	}
 	public Zona getZona() {

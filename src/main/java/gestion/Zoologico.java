@@ -6,7 +6,7 @@ public class Zoologico{
     private String nombre;
     private String ubicacion;
     private ArrayList<Zona> zonas= new ArrayList<>();
-    private int totalAnimales;      //agregado por mí
+    private int totalAnimales;      //agregado por mi
 
     public Zoologico(String nom, String ubi){
         this.nombre = nom;

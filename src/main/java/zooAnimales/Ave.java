@@ -21,4 +21,9 @@ public class Ave extends Animal{
     public static void setListado(ArrayList<Ave> list){
         Ave.listado = list;
     }
+
+    @Override
+    public String movimiento(){
+        return "volar";
+    }
 }

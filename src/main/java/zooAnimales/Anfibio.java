@@ -22,4 +22,9 @@ public class Anfibio extends Animal{
     public static void setListado(ArrayList<Anfibio> list){
         Anfibio.listado = list;
     }
+
+    @Override
+    public String movimiento(){
+        return "saltar";
+    }
 }

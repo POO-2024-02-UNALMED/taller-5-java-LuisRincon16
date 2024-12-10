@@ -23,4 +23,9 @@ public class Pez extends Animal{
     public static void setListado(ArrayList<Pez> list){
         Pez.listado = list;
     }
+
+    @Override
+    public String movimiento(){
+        return "nadar";
+    }
 }

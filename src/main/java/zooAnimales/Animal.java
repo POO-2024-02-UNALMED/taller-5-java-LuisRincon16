@@ -72,4 +72,8 @@ public class Animal{
 		    return "Mi nombre es " + getNombre() + ", tengo una edad de " + getEdad() + ", habito en " + getHabitat() + " y mi genero es " + getGenero();
 		}
 	}
+
+    public String movimiento(){
+        return "desplazarse";
+    }
 }

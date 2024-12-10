@@ -23,4 +23,9 @@ public class Reptil extends Animal{
     public static void setListado(ArrayList<Reptil> list){
         Reptil.listado = list;
     }
+
+    @Override
+    public String movimiento(){
+        return "reptar";
+    }
 }

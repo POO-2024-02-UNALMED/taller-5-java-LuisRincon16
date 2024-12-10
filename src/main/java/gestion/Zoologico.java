@@ -6,7 +6,7 @@ public class Zoologico{
     private String nombre;
     private String ubicacion;
     private ArrayList<Zona> zonas= new ArrayList<>();
-    private int totalAnimales;
+    private int totalAnimales;      //agregado por mí
 
     public Zoologico(String nom, String ubi){
         this.nombre = nom;
@@ -27,5 +27,23 @@ public class Zoologico{
         return totalAnimales;
     }
     
+    public void setNombre(String nom){
+        this.nombre = nom;
+    }
+    public String getNombre(){
+        return this.nombre;
+    }
 
+    public void setUbicacion(String ubi){
+        this.ubicacion = ubi;
+    }
+    public String getUbicacion(){
+        return this.ubicacion;
+    }
+    public void setZonas(ArrayList<Zona> zona){
+        this.zonas = zona;
+    }
+    public ArrayList<Zona> getZonas(){
+        return zonas;
+    }
 }

@@ -4,6 +4,14 @@ import java.util.ArrayList;
 
 public class Zona{
     private String nombre;
-    private ArrayList<Zoologico> zoo= new ArrayList<>();
+    private Zoologico zoo;
     private ArrayList<Animal> animales= new ArrayList<>();
+
+    public Zona(String nom, Zoologico zoo){
+        this.nombre = nom;
+        this.zoo = zoo;
+    }
+    public Zona(){
+        this(null, null);
+    }
 }

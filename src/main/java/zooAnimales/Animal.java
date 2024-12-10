@@ -1,8 +1,9 @@
 package zooAnimales;
+import gestion.*;
 import java.util.ArrayList;
 
 public class Animal{
-    private int totalAnimales;
+    private static int totalAnimales = 0;
     private String nombre;
     private int edad;
     private String habitat;
@@ -14,9 +15,18 @@ public class Animal{
         this.edad = edad;
         this.habitat = hab;
         this.genero = gen;
+        totalAnimales++;
     }
     public Animal(){
         this(null,0,null,null);
     }
+
+    public static String totalPorTipo(){	
+		return "Mamiferos: " + Mamifero.getListado().size()+"\n"+ 
+		"Aves: " + Ave.getListado().size() + "\n" + 
+		"Reptiles: "+ Reptil.getListado().size() + "\n" + 
+		"Peces: " + Pez.getListado().size() + "\n" + 
+		"Anfibios: "+ Anfibio.getListado().size();		
+	}
 
 }

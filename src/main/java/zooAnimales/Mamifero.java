@@ -23,4 +23,6 @@ public class Mamifero extends Animal{
     public static void setListado(ArrayList<Mamifero> list){
         Mamifero.listado = list;
     }
+
+    
 }

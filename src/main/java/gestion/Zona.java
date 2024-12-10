@@ -1,8 +1,9 @@
 package gestion;
 import zooAnimales.*;
+import java.util.ArrayList;
 
 public class Zona{
     private String nombre;
-    private Zoologico[] zoo;
-    private Animal[] animales;
+    private ArrayList<Zoologico> zoo= new ArrayList<>();
+    private ArrayList<Animal> animales= new ArrayList<>();
 }

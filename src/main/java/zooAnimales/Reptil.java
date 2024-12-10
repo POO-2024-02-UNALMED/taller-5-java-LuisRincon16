@@ -8,4 +8,12 @@ public class Reptil extends Animal{
     private String colorEscamas;
     private int largoCola;
 
+    public Ave(String nom, int edad, String hab, String gen, String colorEscamas, int largoCola){
+        super(nom, edad, hab, gen);
+        this.colorEscamas = colorEscamas;
+        this.largoCola = largoCola;
+    }
+    public Ave(){
+        this(null,0,null,null,null,0);
+    }
 }
